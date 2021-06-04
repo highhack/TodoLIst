@@ -16,7 +16,7 @@ import {ErrorSnackbar} from '../components/ErrorSnackbar/ErrorSnackbar'
 import {useDispatch, useSelector} from 'react-redux'
 import {AppRootStateType} from './store'
 import {initializeAppTC, RequestStatusType} from './app-reducer'
-import {BrowserRouter, NavLink, Route} from 'react-router-dom'
+import {BrowserRouter, NavLink, Redirect, Route} from 'react-router-dom'
 import {Login} from '../features/Login/Login'
 import {logoutTC} from '../features/Login/auth-reducer'
 import backImage from './../styles/sky.jpg'
@@ -65,9 +65,11 @@ function App({demo = false}: PropsType) {
                 </AppBar>
                 <Container fixed>
                     <Route exact path={'/'} render={() => <TodolistsList demo={demo}/>}/>
-                    <Route path={'/login'} render={() => <Login/>}/>
+                    <Route exact path={'/login'} render={() => <Login/>}/>
+                    <Redirect path={ '*' } to={ '/login' }/>
                 </Container>
             </div>
+
     )
 }
 
