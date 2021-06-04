@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Todolist/login/static/css/main.aa207b39.chunk.css",
-    "main.js": "/Todolist/login/static/js/main.e24d27a0.chunk.js",
-    "main.js.map": "/Todolist/login/static/js/main.e24d27a0.chunk.js.map",
-    "runtime-main.js": "/Todolist/login/static/js/runtime-main.1856e370.js",
-    "runtime-main.js.map": "/Todolist/login/static/js/runtime-main.1856e370.js.map",
-    "static/js/2.428183b5.chunk.js": "/Todolist/login/static/js/2.428183b5.chunk.js",
-    "static/js/2.428183b5.chunk.js.map": "/Todolist/login/static/js/2.428183b5.chunk.js.map",
-    "index.html": "/Todolist/login/index.html",
-    "precache-manifest.f4aff3466ee8a84dbe20ebe529bcf6bd.js": "/Todolist/login/precache-manifest.f4aff3466ee8a84dbe20ebe529bcf6bd.js",
-    "service-worker.js": "/Todolist/login/service-worker.js",
-    "static/css/main.aa207b39.chunk.css.map": "/Todolist/login/static/css/main.aa207b39.chunk.css.map",
-    "static/js/2.428183b5.chunk.js.LICENSE.txt": "/Todolist/login/static/js/2.428183b5.chunk.js.LICENSE.txt",
-    "static/media/sky.jpg": "/Todolist/login/static/media/sky.133f5077.jpg",
-    "static/media/todolistBackground.jpg": "/Todolist/login/static/media/todolistBackground.b15035b8.jpg"
+    "main.css": "/Todolist/static/css/main.aa207b39.chunk.css",
+    "main.js": "/Todolist/static/js/main.be57bf61.chunk.js",
+    "main.js.map": "/Todolist/static/js/main.be57bf61.chunk.js.map",
+    "runtime-main.js": "/Todolist/static/js/runtime-main.e8babc40.js",
+    "runtime-main.js.map": "/Todolist/static/js/runtime-main.e8babc40.js.map",
+    "static/js/2.428183b5.chunk.js": "/Todolist/static/js/2.428183b5.chunk.js",
+    "static/js/2.428183b5.chunk.js.map": "/Todolist/static/js/2.428183b5.chunk.js.map",
+    "index.html": "/Todolist/index.html",
+    "precache-manifest.877dce81dcf099abea341977e6ccbce1.js": "/Todolist/precache-manifest.877dce81dcf099abea341977e6ccbce1.js",
+    "service-worker.js": "/Todolist/service-worker.js",
+    "static/css/main.aa207b39.chunk.css.map": "/Todolist/static/css/main.aa207b39.chunk.css.map",
+    "static/js/2.428183b5.chunk.js.LICENSE.txt": "/Todolist/static/js/2.428183b5.chunk.js.LICENSE.txt",
+    "static/media/sky.jpg": "/Todolist/static/media/sky.133f5077.jpg",
+    "static/media/todolistBackground.jpg": "/Todolist/static/media/todolistBackground.b15035b8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1856e370.js",
+    "static/js/runtime-main.e8babc40.js",
     "static/js/2.428183b5.chunk.js",
     "static/css/main.aa207b39.chunk.css",
-    "static/js/main.e24d27a0.chunk.js"
+    "static/js/main.be57bf61.chunk.js"
   ]
 }
