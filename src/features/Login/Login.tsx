@@ -5,6 +5,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import {loginTC} from './auth-reducer'
 import {AppRootStateType} from '../../app/store'
 import { Redirect } from 'react-router-dom'
+import {testPass} from "../../styles/testpass";
 
 export const Login = () => {
     const dispatch = useDispatch()
@@ -26,8 +27,8 @@ export const Login = () => {
 
         },
         initialValues: {
-            email: 'dailinet10@gmail.com',
-            password: 'test',
+            email: 'gosya85@gmail.com',
+            password: testPass,
             rememberMe: false
         },
         onSubmit: values => {
@@ -53,7 +54,7 @@ export const Login = () => {
                         <p>
                             or use common test account credentials:
                         </p>
-                        <p> Email: dailinet@gmail.com
+                        <p> Email: gosya85@gmail.com
                         </p>
                     </FormLabel>
                     <FormGroup>

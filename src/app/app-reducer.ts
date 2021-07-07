@@ -47,6 +47,9 @@ export const initializeAppTC = () => (dispatch: Dispatch) => {
 
         dispatch(setAppInitializedAC({isInitialized: true}))
     })
+        .catch(error => {
+            alert(error)
+        })
 }
 
 export type SetAppErrorActionType = ReturnType<typeof setAppErrorAC>
